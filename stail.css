@@ -1,0 +1,41 @@
+body{
+background-image: linear-gradient(90deg,#5c8d89,#5c8d89);
+}
+
+.menu-main {
+  list-style: none;
+  padding: 0 30px;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  background: #74b49b;
+ 
+}
+.menu-main:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 0;
+  bottom: -20px;
+ 
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px 30px;
+ 
+  color: #dcffcc;
+  transition: .3s linear;
+  position: relative;
+}
+li:hover{
+	background: #f4f9f4;
+	
+}
+a:hover{
+	color: #5c8d89;
+}
